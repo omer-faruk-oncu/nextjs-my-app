@@ -1,10 +1,12 @@
 "use client"
 
-const ClientComponent = () => {
+
+const ClientComponent = ({children}) => {
     console.log("This is client component")
   return (
     <div>
       ClientComponent
+      {children}
     </div>
   )
 }
